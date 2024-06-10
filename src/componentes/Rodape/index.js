@@ -2,7 +2,7 @@ import './Rodape.css'
 
 const Rodape = () => {
     return (
-        <div className='rodape'>
+        <div className='rodape' style={{ backgroundImage: "url(/imagens/fundo.png)" }}>
             <div className='redes__sociais'>
                 <a href=''><img src='./imagens/fb.png' alt=''/></a>
                 <a href=''><img src='./imagens/tw.png' alt=''/></a>
